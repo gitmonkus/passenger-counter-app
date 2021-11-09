@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # title(){return this.options.title||this.options.name}
 
 ## Supporting Scrimba
@@ -14,3 +15,9 @@ in a while. So if you've ever wanted to "give back" to Scrimba, you can do that 
 	It would also mean the world to us if you share the courses.  
 
 Happy Coding!
+=======
+# MODULE 3
+### passenger-counter-app
+
+
+>>>>>>> f894fa60db344577ab70ffa74ec58a05eb65230f
