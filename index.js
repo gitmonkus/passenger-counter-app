@@ -4,6 +4,7 @@
 
 // camelCase
 let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
 
 // console.log(countEl);
 
@@ -14,7 +15,12 @@ function increment() {
   countEl.textContent = count;
 }
 
-function reset() {
+function save() {
+  saveEl.textContent += count + " - ";
   count = 0;
   countEl.textContent = count;
+}
+
+function reset() {
+  saveEl.textContent = "Last saved number: ";
 }
