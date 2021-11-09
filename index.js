@@ -16,11 +16,13 @@ function increment() {
 }
 
 function save() {
-  saveEl.textContent += count + " - ";
+  saveEl.textContent += count + " -";
   count = 0;
   countEl.textContent = count;
 }
 
 function reset() {
   saveEl.textContent = "Last saved number: ";
+  count = 0;
+  countEl.textContent = count;
 }
